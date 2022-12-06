@@ -2,7 +2,7 @@ import argparse
 from importlib import import_module
 import sys
 
-parser = argparse.ArgumentParser(description='Advent of code 2021')
+parser = argparse.ArgumentParser(description='Advent of code 2022')
 parser.add_argument('--day', '-d', help='day in advent', type=int, required=True)
 parser.add_argument('--part', '-p', help='part of puzzle to solve', choices=['1', '2', 'both'], default='both')
 parser.add_argument('--input', '-i', help='input file')
